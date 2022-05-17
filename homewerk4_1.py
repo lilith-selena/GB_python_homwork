@@ -32,6 +32,17 @@ def wegs(timework, payment, prize):
 if __name__ == '__main__':
     wegs(timework, payment, prize)
 """
+# попытка №4 вся группа помогала)))
+from sys import argv
+
+argv[0], hours, rate, extraMoney = argv
+
+def selary (hours, rate, extraMoney):
+  result = (int(hours)*int(rate)+int(extraMoney))
+  return print(result)
+
+if __name__ == '__main__':
+  selary(hours, rate, extraMoney)
 
 """2. Представлен список чисел. Необходимо вывести элементы исходного списка, 
 значения которых больше предыдущего элемента.
